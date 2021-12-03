@@ -1,0 +1,245 @@
+.tieudethem2 {
+    position: static;
+    width: 400px;
+    height: 30px;
+    margin-left: 335px;
+    margin-top: -25px;
+    /* 24 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.QTCtext {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 32%;
+    color: #091F3A;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.tt2 {
+    margin-left: 500px;
+    margin-top: -115px;
+}
+
+.ttbox {
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #347AFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(100px);
+    width: 200px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.tttext {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 32%;
+    color: #091F3A;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.NTC {
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #347AFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(100px);
+    width: 200px;
+    height: 35px;
+    margin-top: 5px;
+}
+
+.ttname {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 32%;
+    color: #091F3A;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.tt {
+    margin-left: 990px;
+    margin-top: -115px;
+}
+
+.time {
+    margin-left: 1200px;
+    margin-top: -87px;
+}
+
+.texttime {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 32%;
+    color: #091F3A;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.btntimkiem4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    margin-left: 230px;
+    margin-top: -57px;
+    background: #2190CD;
+    border: 1px solid #2190CD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.btntennuttimkiem3 {
+    position: static;
+    width: 99px;
+    height: 23px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 17px;
+    margin-left: 60px;
+}
+
+.tieudeQLND4 {
+    position: static;
+    width: 140px;
+    height: 20px;
+    margin-left: 10px;
+    /* 16 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Grey/4 */
+    color: #ACBCD1;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.tieudeQLND2 {
+    position: static;
+    width: 300px;
+    height: 20px;
+    margin-left: 165px;
+    margin-top: -18px;
+    /* 16 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Grey/4 */
+    color: #ACBCD1;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mui1 {
+    position: absolute;
+    margin-left: 145px;
+    margin-top: -15px;
+}
+
+.mui2 {
+    position: absolute;
+    margin-left: 319px;
+    margin-top: -15px;
+}
+
+.QTC2 {
+    margin-left: 21px;
+}
+
+thead[class*="ant-table-thead"] th {
+    background-color: #EAF5FA !important;
+    padding: 10px 10px 10px 10px;
+    color: #1085C5;
+    border: none;
+}
+
+.btnthem1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-left: 1340px;
+    margin-top: -57px;
+    background: #2190CD;
+    border: 1px solid #2190CD;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.btnthem {
+    position: static;
+    width: 110px;
+    height: 23px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 12px;
+    margin-left: 35px;
+}

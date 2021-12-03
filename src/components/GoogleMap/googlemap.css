@@ -1,0 +1,14 @@
+.googlemap {
+    position: absolute;
+    width: 1500px;
+    height: 390px;
+    left: 340px;
+    top: 175px;
+    overflow: hidden;
+    /* White */
+    background: #FFFFFF;
+    /* Blue/2 */
+    border: 2px solid #ACD5EC;
+    box-sizing: border-box;
+    border-radius: 24px;
+}

@@ -1,0 +1,82 @@
+.Topbar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.TopWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NAvta {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 5px;
+    margin-top: 9px;
+}
+
+.TopRight {
+    position: absolute;
+    right: 32px;
+    top: 20px
+}
+
+.PicAva {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    margin-left: 20px;
+    margin-right: 7px;
+}
+
+.Topicons {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.TopLanguage {
+    font-size: 15px;
+    background: #EAF5FA;
+    width: 90px;
+    height: 44px;
+    /* Blue/6 */
+    border: 1px solid #1085C5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    color: #1085C5;
+    background: #EAF5FA;
+}
+
+.DropdownL {
+    width: 15px;
+    height: 30px;
+    padding-top: 14px;
+    margin-left: 2px;
+}
+
+.Write {
+    margin-left: 7px;
+    margin-top: 9px;
+}
+
+.VN {
+    margin-left: 6px;
+    padding-top: 9px;
+    width: 20px;
+    height: 30px;
+}
+
+.Namepic {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

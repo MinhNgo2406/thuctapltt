@@ -1,0 +1,1162 @@
+.thongtinatm1 {
+    /* Thông tin ATM */
+    position: absolute;
+    width: 128px;
+    height: 23px;
+    left: 360px;
+    top: 580px;
+    /* 18 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.table_MAP1 {
+    /* Frame 2 */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    position: absolute;
+    width: 597px;
+    height: 288px;
+    left: 347px;
+    top: 610px;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.ID_ttATM {
+    /* ID: */
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    left: 24px;
+    top: 17px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+}
+
+.ID_ttATM_1 {
+    /* 8628822201212 to SIM number: Unknown */
+    position: absolute;
+    width: 277px;
+    height: 20px;
+    left: 177px;
+    top: 16px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+}
+
+.onedot {
+    /* Ellipse 1 */
+    position: static;
+    width: 8px;
+    height: 8px;
+    left: 0px;
+    top: 6px;
+    /* Green */
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 4px;
+}
+
+.t1_t1 {
+    /* Mới */
+    position: static;
+    width: 83px;
+    height: 20px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.t1 {
+    /* Trạng thái: */
+    position: absolute;
+    width: 73px;
+    height: 20px;
+    left: 24px;
+    top: 53px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.t1_t1_2 {
+    /* status date */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 95px;
+    height: 20px;
+    left: 178px;
+    top: 53px;
+}
+
+.typeConnect {
+    /* Loại kết nối: */
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 24px;
+    top: 89px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.typeConnect1 {
+    /* Nguồn AC - Mạng WAN */
+    position: absolute;
+    width: 156px;
+    height: 20px;
+    left: 177px;
+    top: 88px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+}
+
+.typedevice {
+    /* Loại thiết bị: */
+    position: absolute;
+    width: 83px;
+    height: 20px;
+    left: 24px;
+    top: 125px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.typedevice1 {
+    /* Thiết bị cảnh báo cho ATM */
+    position: absolute;
+    width: 172px;
+    height: 20px;
+    left: 177px;
+    top: 124px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+}
+
+.trackingaddress {
+    /* Địa chỉ theo dõi: */
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    left: 24px;
+    top: 161px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.trackingaddress1 {
+    /* 86/33 Âu Cơ, phường 9, quận Tân Bình, TP.HCM */
+    position: absolute;
+    width: 340px;
+    height: 20px;
+    left: 177px;
+    top: 160px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+}
+
+.activationdate {
+    /* Ngày kích hoạt: */
+    position: absolute;
+    width: 105px;
+    height: 20px;
+    left: 24px;
+    top: 197px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.activationdate1 {
+    /* 12/05/2021 16:15:00 */
+    position: absolute;
+    width: 136px;
+    height: 20px;
+    left: 175px;
+    top: 196px;
+    /* Text/14 regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.8;
+}
+
+.timetable1 {
+    /* Thời gian truy vấn: 16:20:00 22/06/2021 */
+    position: absolute;
+    width: 267px;
+    height: 20px;
+    left: 24px;
+    top: 232px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    /* Enable */
+    color: #347AFF;
+    opacity: 0.8;
+}
+
+.table_MAP2 {
+    /* Cambien & Canhbao */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    position: absolute;
+    width: 440px;
+    height: 288px;
+    left: 976px;
+    top: 610px;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.trangthaicambien {
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 980px;
+    top: 580px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.i1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+    border-radius: 8px;
+}
+
+.so1_v2 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -5px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so1_1_v2 {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 325px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 45px;
+    border-radius: 8px;
+}
+
+.so2_v2 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so2_1_v2 {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #FF5B5B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i3 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 80px;
+    border-radius: 8px;
+}
+
+.so3 {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    margin-top: 65px;
+    margin-left: 13px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so3_1 {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i4 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 115px;
+    border-radius: 8px;
+}
+
+.so4 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 116px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so4_1 {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    margin-top: 96px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i5 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 150px;
+    border-radius: 8px;
+}
+
+.so5 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 150px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so5_1_v2 {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    margin-top: 130px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i6 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 180px;
+    border-radius: 8px;
+}
+
+.so6 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 182px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so6_1_v2 {
+    position: static;
+    width: 22px;
+    height: 20px;
+    margin-top: 12px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #091F3A;
+    opacity: 0.5;
+}
+
+.i7 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 210px;
+    border-radius: 8px;
+}
+
+.so7_v2 {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 36px;
+    top: 210px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so7_1_v2 {
+    /* Bình thường */
+    position: static;
+    width: 100px;
+    height: 20px;
+    margin-top: -35px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.namecanhbao {
+    /* Cảnh báo */
+    position: absolute;
+    width: 85px;
+    height: 23px;
+    left: 1448px;
+    top: 580px;
+    /* 18 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.table_MAp4 {
+    /* Cambien & Canhbao */
+    /* Auto Layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    position: absolute;
+    width: 440px;
+    height: 288px;
+    left: 1448px;
+    top: 610px;
+    /* White */
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.i8 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+    border-radius: 8px;
+}
+
+.so8 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -5px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so8_1_v2 {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: 315px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #114A69;
+    opacity: 0.8;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i9 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 45px;
+    border-radius: 8px;
+}
+
+.so9 {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so9_1_v2 {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 340px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #FF5B5B;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i10 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 80px;
+    border-radius: 8px;
+}
+
+.so10 {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    margin-top: 65px;
+    margin-left: 13px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so10_1 {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    margin-top: 60px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i11 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 115px;
+    border-radius: 8px;
+}
+
+.so11 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 116px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so11_1 {
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    margin-top: 96px;
+    margin-left: 380px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i12 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 150px;
+    border-radius: 8px;
+}
+
+.so12 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 150px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so12_1 {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-top: 130px;
+    margin-left: 230px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.5;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.i13 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 180px;
+    border-radius: 8px;
+}
+
+.so13 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 182px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so13_1 {
+    position: static;
+    width: 100px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 360px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #091F3A;
+    opacity: 0.5;
+}
+
+.i14 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+    top: 210px;
+    border-radius: 8px;
+}
+
+.so14 {
+    position: absolute;
+    width: 139px;
+    height: 20px;
+    left: 36px;
+    top: 212px;
+    /* 14 Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/7 */
+    color: #114A69;
+    opacity: 0.8;
+}
+
+.so14_1 {
+    position: static;
+    width: 200px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 230px;
+    /* Menu/14 Semi */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Red */
+    color: #091F3A;
+    opacity: 0.5;
+}

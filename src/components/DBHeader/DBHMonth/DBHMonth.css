@@ -1,0 +1,170 @@
+/*Title*/
+
+.titleN {
+    /* 24 Extra Bold */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+    /* Blue/8 */
+    color: #091F3A;
+}
+
+.TitleD {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.002em;
+    /* Blue/6 */
+    margin: 10px 0px 0px 34px;
+    color: #1085C5;
+}
+
+
+/*End Title*/
+
+
+/*Left*/
+
+.DBHW4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DBHLeft {
+    margin: 24px 0px 0px 34px;
+    border: 1px solid #1085C5;
+    width: 300px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    color: #1085C5;
+    border-radius: 24px;
+}
+
+.LinkD2 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 28px;
+    width: 15px;
+    flex: 2;
+    text-align: center;
+}
+
+.LinkD2:hover {
+    border: 1px;
+    background-color: #1085C5;
+    color: white;
+    border-radius: 12px;
+    order: 0px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.LinkW2 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 28px;
+    width: 15px;
+    flex: 2;
+    text-align: center;
+}
+
+.LinkW2:hover {
+    border: 1px;
+    background-color: #1085C5;
+    color: white;
+    border-radius: 12px;
+    width: 15px;
+    order: 0px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.LinkM2 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 28px;
+    width: 15px;
+    flex: 2;
+    text-align: center;
+}
+
+.LinkM2:hover {
+    border: 1px;
+    background-color: #1085C5;
+    color: white;
+    border-radius: 12px;
+    width: 15px;
+    order: 0px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.LinkM2.active {
+    background-color: #1085C5;
+    color: white;
+    border-radius: 12px;
+}
+
+.LinkY2 {
+    display: flex;
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 28px;
+    width: 15px;
+    flex: 2;
+    text-align: center;
+}
+
+.LinkY2:hover {
+    border: 1px;
+    background-color: #1085C5;
+    color: white;
+    border-radius: 12px;
+    width: 15px;
+    order: 0px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+
+/*End Left */
+
+
+/*Right*/
+
+.DBHRight {
+    margin: 24px 0px 0px 34px;
+    display: flex;
+}
+
+.DBHtitle {
+    color: #1085C5;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/*End Right*/

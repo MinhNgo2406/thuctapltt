@@ -1,0 +1,23 @@
+.Table2 {
+    position: absolute;
+    width: 1500px;
+    height: 718px;
+    left: 340px;
+    top: 245px;
+    /* White */
+    background: #FFFF;
+    border-radius: 16px;
+}
+
+thead[class*="ant-table-thead"] th {
+    background-color: #EAF5FA !important;
+    padding: 10px 10px 10px 10px;
+    color: #1085C5;
+    border: none;
+}
+
+.dakichhoat {
+    left: 70px;
+    top: 25px;
+    position: absolute;
+}

@@ -1,0 +1,173 @@
+/* Background */
+
+.GuiEmail {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px 50px 50px 50px;
+    background: #F0F8FF;
+    box-shadow: inset 100px -100px 100px rgba(185, 188, 191, 0.123), inset -100px 100px 100px rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(600px);
+}
+
+
+/* Logo Youtube */
+
+.utube_mail {
+    width: 75px;
+    height: 75px;
+    background: #FF2D55;
+    border-radius: 40px 40px 40px 40px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.utube2_mail {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+/* Giao Diện */
+
+.left {
+    flex: 5;
+    width: 776px;
+    height: 752px;
+    left: 24px;
+    top: 24px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+
+/* Content Left */
+
+.iconpic {
+    width: 770px;
+    height: 752px;
+    margin-bottom: 35%;
+    margin-right: 50px;
+    position: relative;
+    /* angular */
+    background: conic-gradient(from 76.92deg at 50% 50%, #C5FFFB -73.21deg, #E4E9FE 2.5deg, #A9D7FF 81.36deg, #89DCFF 143.29deg, #A9C6FF 207.16deg, #C5FFFB 286.79deg, #E4E9FE 362.5deg);
+    opacity: 0.5;
+    border-radius: 18px;
+}
+
+.atm_email {
+    margin-top: 10%;
+    margin-left: 16%;
+    height: 595px;
+    position: absolute;
+    z-index: 1;
+}
+
+.bongatm_email {
+    position: absolute;
+    z-index: 0;
+    margin-top: 34.5%;
+    opacity: 0.9;
+}
+
+.f1_email {
+    position: absolute;
+    z-index: 1;
+    margin-top: 3%;
+    margin-left: 30px;
+}
+
+.f2_email {
+    position: absolute;
+    z-index: 2;
+    margin-top: 15%;
+    margin-left: 43%;
+}
+
+.f3_email {
+    position: absolute;
+    z-index: 2;
+    margin-top: 32%;
+    margin-left: 30%;
+}
+
+
+/* Content Right */
+
+.quaylaitrangdangnhap_email {
+    position: absolute;
+    width: 148px;
+    height: 24px;
+    left: 1120px;
+    top: 740px;
+    /* 16 regular underline */
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 12.2px;
+    /* identical to box height, or 150% */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    /* Blue/6 */
+    color: #1085C5;
+    opacity: 0.7;
+}
+
+.thongtin {
+    position: absolute;
+    width: 396px;
+    height: 60px;
+    left: 951px;
+    top: 120px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+}
+
+.thongtinnho {
+    position: absolute;
+    width: 407px;
+    height: 48px;
+    left: 951px;
+    top: 196px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.6;
+}
+
+.thongtinnho2 {
+    position: absolute;
+    width: 517px;
+    height: 48px;
+    left: 951px;
+    top: 260px;
+    /* Text/Text 16 Regular */
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    display: flex;
+    align-items: center;
+    /* Blue/8 */
+    color: #091F3A;
+    opacity: 0.6;
+}

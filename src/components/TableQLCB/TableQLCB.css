@@ -1,0 +1,17 @@
+.TableQLCB {
+    position: absolute;
+    width: 1500px;
+    height: 1118px;
+    left: 340px;
+    top: 200px;
+    /* White */
+    background: #FFFF;
+    border-radius: 16px;
+}
+
+thead[class*="ant-table-thead"] th {
+    background-color: #EAF5FA !important;
+    padding: 10px 10px 10px 10px;
+    color: #1085C5;
+    border: none;
+}

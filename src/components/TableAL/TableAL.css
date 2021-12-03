@@ -1,0 +1,18 @@
+.Table4 {
+    position: absolute;
+    width: 1500px;
+    height: 718px;
+    left: 340px;
+    top: 245px;
+    /* White */
+    background: #FFFF;
+    border-radius: 16px;
+}
+
+.red2 {
+    color: red;
+}
+
+.green2 {
+    color: green;
+}
