@@ -1,12 +1,18 @@
 .Table_GSM {
     position: absolute;
     width: 1500px;
-    height: 718px;
+    height: 908px;
     left: 340px;
     top: 250px;
     /* White */
     background: #FFFF;
     border-radius: 16px;
+}
+
+.frames6 {
+    width: 1460px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .line7 {

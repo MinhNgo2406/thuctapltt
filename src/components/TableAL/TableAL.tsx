@@ -145,8 +145,8 @@ export default function Tablegsm() {
     ];
 
     return (
-        <div className="Table4">
-            <Table columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 2, total: 10000, pageSize: 100 }} className="TableQLCBdata" />
+        <div className="Table4">    
+                <Table className="botron" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 2, total: 10000, pageSize: 100 }} />
         </div>
     )
 }

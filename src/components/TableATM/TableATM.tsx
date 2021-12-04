@@ -202,7 +202,7 @@ export default function Tablegsm() {
 
     return (
         <div className="Table3">
-            <Table columns={columns} dataSource={dataSource} pagination={{showSizeChanger:false,defaultCurrent:2,total:10000,pageSize:100}} className="TableQLCBdata"/>
+            <Table columns={columns} dataSource={dataSource} pagination={{showSizeChanger:false,defaultCurrent:2,total:10000,pageSize:100}} className="frames4"/>
 
         </div>
     )

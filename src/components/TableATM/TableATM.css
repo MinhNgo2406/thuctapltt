@@ -1,12 +1,18 @@
 .Table3 {
     position: absolute;
     width: 1500px;
-    height: 718px;
+    height: 910px;
     left: 340px;
     top: 245px;
     /* White */
     background: #FFFF;
     border-radius: 16px;
+}
+
+.frames4 {
+    width: 1450px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .red {

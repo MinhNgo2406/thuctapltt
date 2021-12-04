@@ -1,8 +1,8 @@
 import React from 'react'
 import './DBRouterATM.css';
 import TopSidebar from '../../Topbar/Topbar';
-import Sidebar from '../../Sidebar/Sidebar';
 import DBATM from '../../DashBoard/DBATM/DBATM';
+import SBATM from '../../Sidebar/SBATM/SBATM';
 
 
 export default function DBRouterQLCB() {
@@ -10,7 +10,7 @@ export default function DBRouterQLCB() {
         <div className="ATM5">
             <TopSidebar />
             <div className="ATM6">
-                <Sidebar />
+                <SBATM />
                 <DBATM />
             </div>
             

@@ -359,7 +359,9 @@ export default function Tablegsm() {
 
     return (
         <div className="Table">
-            <Table dataSource={dataSource} columns={columns} pagination={false} />
+            <div className="kkhungtron">
+                <Table className="khungtron" dataSource={dataSource} columns={columns} pagination={false} />
+            </div>
         </div>
     )
 }

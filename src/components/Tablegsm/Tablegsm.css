@@ -9,6 +9,15 @@
     border-radius: 16px;
 }
 
+.kkhungtron {
+    margin-top: 15px;
+}
+
+.khungtron {
+    width: 1460px;
+    margin-left: 20px;
+}
+
 .line7 {
     margin-left: 2px;
     position: absolute;

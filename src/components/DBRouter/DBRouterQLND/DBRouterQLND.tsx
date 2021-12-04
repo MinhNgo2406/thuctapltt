@@ -1,8 +1,8 @@
 import React from 'react'
 import './DBRouterQLND.css';
 import TopSidebar from '../../Topbar/Topbar';
-import Sidebar from '../../Sidebar/Sidebar';
 import DBQLND from '../../DashBoard/DBQLND/DBQLND';
+import SBQLND from '../../Sidebar/SBQLND/SBQLND';
 
 
 export default function DBRouterQLND() {
@@ -10,7 +10,7 @@ export default function DBRouterQLND() {
         <div className="QLND3">
             <TopSidebar />
             <div className="QLND4">
-                <Sidebar />
+                <SBQLND />
                 <DBQLND />
             </div>
             

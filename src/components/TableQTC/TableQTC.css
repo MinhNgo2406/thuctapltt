@@ -1,12 +1,18 @@
 .Table7 {
     position: absolute;
-    width: 1500px;
-    height: 340px;
+    width: 1490px;
+    height: 350px;
     left: 340px;
     top: 245px;
     /* White */
     background: #FFFF;
     border-radius: 16px;
+}
+
+.frames5 {
+    width: 1450px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 thead[class*="ant-table-thead"] th {

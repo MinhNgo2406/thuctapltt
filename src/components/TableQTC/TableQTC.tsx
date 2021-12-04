@@ -134,7 +134,7 @@ export default function Tablegsm() {
 
     return (
         <div className="Table7">
-            <Table dataSource={dataSource} columns={columns} pagination={false} />
+            <Table className="frames5" dataSource={dataSource} columns={columns} pagination={false} />
         </div>
     )
 }

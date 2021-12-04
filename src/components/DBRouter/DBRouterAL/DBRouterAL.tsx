@@ -1,8 +1,8 @@
 import React from 'react'
 import './DBRouterAL.css';
 import TopSidebar from '../../Topbar/Topbar';
-import Sidebar from '../../Sidebar/Sidebar';
 import DBAL from '../../DashBoard/DBAL/DBAL';
+import SBAL from '../../Sidebar/SBAL/SBAL';
 
 
 export default function DBRouterQLCB() {
@@ -10,7 +10,7 @@ export default function DBRouterQLCB() {
         <div className="RAL">
             <TopSidebar />
             <div className="RAL1">
-                <Sidebar />
+                <SBAL />
                 <DBAL />
             </div>
             

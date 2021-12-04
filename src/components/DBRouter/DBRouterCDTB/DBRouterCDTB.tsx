@@ -1,16 +1,15 @@
 import React from 'react'
 import './DBRouterCDTB.css';
 import TopSidebar from '../../Topbar/Topbar';
-import Sidebar from '../../Sidebar/Sidebar';
-import DBQTC_Add from '../../DashBoard/DBQTC_Add/DBQTC_Add';
 import DBCDTB_GSM from '../../DashBoard/DBCDTB_GSM/DBCDTB_GSM';
+import SBQLTB_GSM from '../../Sidebar/SBQLTB_GSM/SBQLTB_GSM';
 
 export default function DBRouterCDTB() {
     return (
         <div className="DBRCDTB">
             <TopSidebar />
             <div className="DBRCDTB1">
-                <Sidebar />
+                <SBQLTB_GSM />
                 <DBCDTB_GSM />
             </div>
 
