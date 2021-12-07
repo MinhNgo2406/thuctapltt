@@ -6,8 +6,41 @@ import { Link } from 'react-router-dom';
 import { Table } from 'antd';
 import muiten from '../../../assets/dashboard/Down.png';
 import Eye from '../../../assets/dashboard/eye.png';
-
+import { Menu, Dropdown, Button, Space } from 'antd';
 export default function QLND_Add_table() {
+    const themnguoidung_cdvql = (
+        <Menu>
+            <Menu.Item>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở HCM</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở Cần Thơ</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở Hà Nội</h4>
+                </a>
+            </Menu.Item>
+        </Menu>
+    );
+    const themnguoidung_qtc = (
+        <Menu>
+            <Menu.Item>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Quản trị viên</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Phòng giao dịch</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Admin</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Nhân viên</h4>
+                </a>
+            </Menu.Item>
+        </Menu>
+    );
     return (
         <div className="Table23">
             <div className="login1">
@@ -32,13 +65,19 @@ export default function QLND_Add_table() {
             <div className="cdvql">
                 <label className="vlc">Chọn đơn vị quản lý:</label>
                 <label className="ngoisao_cdvql">*</label>
-                <input type="text" className="nhapcdvql" name="DQL" placeholder="Vui lòng chọn" /><br />
+                <Dropdown overlay={themnguoidung_cdvql} placement="bottomLeft">
+                    <input type="text" className="nhapcdvql" name="DQL" placeholder="Vui lòng chọn" />
+                </Dropdown>
+                <br />
                 <img src={muiten} alt="" className="mui8" />
             </div>
             <div className="qtc">
                 <label className="qtcname">Quyền Truy Cập:</label>
                 <label className="ngoisao_qtc">*</label>
-                <input type="text" className="nhapvlcqtc" name="DQL" placeholder="Vui lòng chọn" /><br />
+                <Dropdown overlay={themnguoidung_qtc} placement="bottomLeft">
+                    <input type="text" className="nhapvlcqtc" name="DQL" placeholder="Vui lòng chọn" />
+                </Dropdown>
+                <br />
                 <img src={muiten} alt="" className="mui9" />
             </div>
             <div className="password">

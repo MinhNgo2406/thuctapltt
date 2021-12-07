@@ -27,3 +27,25 @@ thead[class*="ant-table-thead"] th {
     top: 25px;
     position: absolute;
 }
+
+.thongtinsodong_PGD {
+    position: absolute;
+    top: 1050px;
+    left: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #114A69;
+    opacity: 0.7;
+    display: flex;
+}
+
+.sodongqpgd {
+    border: 1px solid #6CB6DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px
+}

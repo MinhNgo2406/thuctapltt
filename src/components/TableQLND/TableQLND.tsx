@@ -418,7 +418,10 @@ export default function Tablegsm() {
     ];
     return (
         <div className="Table10">
-            <Table className="frames1" columns={columns} dataSource={dataSource} pagination={{showSizeChanger:false,defaultCurrent:2,total:10000,pageSize:100}} />
+            <Table className="frames1" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 1, total: 10000, pageSize: 100 }} />
+            <div className="thongtinsodong_QLND">
+                Hiển thị <div className="sodonggqnd"> 14 </div> hàng trong mỗi trang
+            </div>
         </div>
     )
 }

@@ -6,9 +6,24 @@ import { Link } from 'react-router-dom';
 import { Table } from 'antd';
 import Down from '../../../assets/dashboard/Down.png';
 import Eye1 from '../../../assets/dashboard/eye.png';
-
+import { Menu, Dropdown, Button, Space } from 'antd';
 
 export default function QLND_Update_table() {
+    const thongtin = (
+        <Menu>
+            <Menu.Item>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở HCM</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở Cần Thơ</h4>
+                </a>
+                <a target="_blank" rel="noopener noreferrer" href="">
+                    <h4>Hội sở Hà Nội</h4>
+                </a>
+            </Menu.Item>
+        </Menu>
+    );
     const dataSource = [
         {
             key: '1',
@@ -148,12 +163,15 @@ export default function QLND_Update_table() {
                         <input type="text" className="QLNDbox4" name="DQL" placeholder="079 020 2696" /><br />
                         <br />
                         <label className="QLNDtext5">Chọn đơn vị quản lý: </label><br />
-                        <input type="text" className="QLNDbox5" name="DQL" placeholder="Hội sở TP.HCM" /><br />
+                        <Dropdown overlay={thongtin} placement="bottomLeft">
+                            <input type="text" className="QLNDbox5" name="DQL" placeholder="Hội sở TP.HCM" />
+                        </Dropdown>
+                        <br />
                         <br />
                         <label className="star5">*</label>
                         <br />
                         <img src={Down} alt="" className="dropdown" />
-                        
+
                         <label className="QLNDtext6">Mật khẩu: </label><br />
                         <input type="password" className="QLNDbox6" name="DQL" placeholder="●●●●●●●●●●" /><br />
                         <br />
@@ -165,7 +183,7 @@ export default function QLND_Update_table() {
                         <br />
                         <label className="star7">*</label>
                         <img src={Eye1} alt="" className="hidepassword1" />
-                        
+
 
 
                     </div>

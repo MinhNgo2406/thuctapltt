@@ -35,3 +35,25 @@ thead[class*="ant-table-thead"] th {
 .xoa {
     color: #FF5B5B;
 }
+
+.thongtinsodong_QLND {
+    position: absolute;
+    top: 1180px;
+    left: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #114A69;
+    opacity: 0.7;
+    display: flex;
+}
+
+.sodonggqnd {
+    border: 1px solid #6CB6DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px
+}

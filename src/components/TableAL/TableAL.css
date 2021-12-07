@@ -22,3 +22,25 @@
 .green2 {
     color: green;
 }
+
+.thongtinsodong_AL {
+    position: absolute;
+    top: 850px;
+    left: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #114A69;
+    opacity: 0.7;
+    display: flex;
+}
+
+.sodongAL {
+    border: 1px solid #6CB6DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px
+}

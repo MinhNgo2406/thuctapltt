@@ -234,7 +234,10 @@ export default function Tablegsm() {
 
     return (
         <div className="TableQLCB">
-            <Table className="frames2" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 2, total: 10000, pageSize: 100 }} />
+            <Table className="frames2" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 1, total: 10000, pageSize: 100 }} />
+            <div className="thongtinsodong_QLCB">
+                Hiển thị <div className="sodongqlcb"> 14 </div> hàng trong mỗi trang
+            </div>
         </div>
     )
 }

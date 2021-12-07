@@ -504,7 +504,10 @@ export default function QLTM_GSB_table() {
 
     return (
         <div className="Table_GSM">
-            <Table columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 2, total: 10000, pageSize: 100 }} className="frames6" />
+            <Table columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 1, total: 10000, pageSize: 100 }} className="frames6" />
+            <div className="thongtinsodong_GSM">
+                Hiển thị <div className="sodonggsm"> 14 </div> hàng trong mỗi trang
+            </div>
         </div>
     )
 }

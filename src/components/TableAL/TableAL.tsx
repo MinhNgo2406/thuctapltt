@@ -145,8 +145,11 @@ export default function Tablegsm() {
     ];
 
     return (
-        <div className="Table4">    
-                <Table className="botron" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 2, total: 10000, pageSize: 100 }} />
+        <div className="Table4">
+            <Table className="botron" columns={columns} dataSource={dataSource} pagination={{ showSizeChanger: false, defaultCurrent: 1, total: 10000, pageSize: 100 }} />
+            <div className="thongtinsodong_AL">
+                Hiển thị <div className="sodongAL"> 14 </div> hàng trong mỗi trang
+            </div>
         </div>
     )
 }

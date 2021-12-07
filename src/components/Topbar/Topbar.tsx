@@ -2,7 +2,7 @@ import React from 'react';
 import './Topbar.css';
 import VN from '../../assets/dashboard/bentrai/VN.png';
 import DropDown from '../../assets/dashboard/Down.png';
-import Ava from '../../assets/anhdaidien/Ava.png';
+import Ava from '../../assets/anhdaidien/ava2.jpg';
 
 export default function TopSidebar() {
     return (

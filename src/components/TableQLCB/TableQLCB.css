@@ -21,3 +21,25 @@ thead[class*="ant-table-thead"] th {
     color: #1085C5;
     border: none;
 }
+
+.thongtinsodong_QLCB {
+    position: absolute;
+    top: 1100px;
+    left: 22px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #114A69;
+    opacity: 0.7;
+    display: flex;
+}
+
+.sodongqlcb {
+    border: 1px solid #6CB6DD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-left: 5px
+}
