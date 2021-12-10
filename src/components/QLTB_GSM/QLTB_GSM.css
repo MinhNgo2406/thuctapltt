@@ -2,10 +2,10 @@
     position: static;
     width: 400px;
     height: 30px;
-    margin-left: 160px;
+    margin-left: 158px;
     margin-top: -25px;
     /* 24 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -27,7 +27,7 @@
     height: 20px;
     margin-left: 10px;
     /* 16 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -45,8 +45,8 @@
 
 .chiqua {
     position: absolute;
-    margin-left: 144px;
-    margin-top: -15px;
+    margin-left: 140px;
+    margin-top: -18px;
 }
 
 .dgs_GSM {
@@ -57,7 +57,7 @@
     left: 347px;
     top: 154px;
     /* 16 Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -98,7 +98,7 @@
     left: 563px;
     top: 155px;
     /* 16 Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -145,7 +145,7 @@
     left: 779px;
     top: 155px;
     /* 16 Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -191,7 +191,7 @@
     left: 995px;
     top: 155px;
     /* 16 Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -257,7 +257,7 @@
     margin-left: 4px;
     margin-top: 13px;
     /* 16 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -281,7 +281,7 @@
     position: absolute;
     width: 138px;
     height: 44px;
-    left: 1750px;
+    left: 1700px;
     top: 182px;
     /* Blue/5 */
     background: #2190CD;
@@ -299,7 +299,7 @@
     margin-left: 35px;
     margin-top: 13px;
     /* 14 Extra bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -325,7 +325,7 @@
     left: 1211px;
     top: 155px;
     /* 16 Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

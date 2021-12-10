@@ -81,10 +81,10 @@ export default function Qlcb() {
     );
     return (
         <div className="qlcb">
-            <div className="tieude1">
+            <div className="tieudebaocao">
                 Báo Cáo
             </div>
-            <img src={muiten} alt="" className="muiten" />
+            <img src={muiten} alt="" className="muitenbaocao" />
             <div className="tieude2">
                 Báo cáo theo phòng giao dịch
             </div>
@@ -107,7 +107,7 @@ export default function Qlcb() {
             </div>
             <div className="tt2">
                 <br />
-                <label className="tttext">Trạng thái: </label>
+                <label className="tttexttrangthai">Trạng thái: </label>
                 <br />
                 <Dropdown overlay={trangthaidropdown} placement="bottomLeft">
                     <input type="text" className="ttbox" name="DQL" placeholder="Tất cả" />

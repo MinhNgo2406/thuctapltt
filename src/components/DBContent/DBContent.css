@@ -29,7 +29,7 @@
  
  .tstbTitle {
      margin-left: 80px;
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 14px;
@@ -38,9 +38,9 @@
  }
  
  .tstbTitle1 {
-     margin-left: 80px;
+     margin-left: 88px;
      margin-top: 10px;
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
  }
  
@@ -59,21 +59,21 @@
  }
  
  .ATMTitle {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
-     font-size: 14px;
+     font-size: 16px;
      line-height: 20px;
      display: flex;
      align-items: center;
      text-align: center;
      letter-spacing: 0.002em;
      margin-top: 10px;
-     margin-left: -170px;
+     margin-left: -168px;
  }
  
  .ATMTitle1 {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: normal;
      font-size: 16px;
@@ -89,7 +89,7 @@
  }
  
  .pgdTitle {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 16px;
@@ -99,7 +99,7 @@
  }
  
  .pgdTitle1 {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: normal;
      font-size: 16px;
@@ -121,7 +121,7 @@
  }
  
  .DBCRTitle {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 24px;
@@ -134,13 +134,14 @@
  /*Kết nối nguồn AC */
  
  .KnACTitle {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 16px;
      line-height: 20px;
      display: flex;
      align-items: center;
+     margin-left: 15px;
  }
  
  .IconKnAC {
@@ -160,13 +161,14 @@
  }
  
  .KnTitle {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 16px;
      line-height: 40px;
      display: flex;
      align-items: center;
+     margin-left: 10px;
  }
  
  .IconKn {
@@ -188,11 +190,12 @@
  .CbTitle {
      position: absolute;
      /*Font*/
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 16px;
      line-height: 20px;
+     margin-left: 9px;
  }
  /*line*/
  
@@ -208,7 +211,7 @@
  
  .lines3 {
      margin-left: 450px;
-     margin-top: -125px;
+     margin-top: -110px;
  }
  /* Cảnh Báo ATM */
  
@@ -228,7 +231,7 @@
  }
  
  .under1tieude {
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: bold;
      font-size: 24px;
@@ -263,7 +266,7 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -320,7 +323,7 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -357,7 +360,7 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
+     font-family: 'Baloo Bhaijaan 2', cursive;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -408,7 +411,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -455,7 +457,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -502,7 +503,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -549,7 +549,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -596,7 +595,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -632,7 +630,6 @@
  }
  
  .under2tieude {
-     font-family: Mulish;
      font-style: normal;
      font-weight: bold;
      font-size: 24px;
@@ -671,7 +668,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -718,7 +714,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -765,7 +760,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -812,7 +806,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -859,7 +852,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;
@@ -906,7 +898,6 @@
      position: absolute;
      margin-left: 55px;
      margin-top: 5px;
-     font-family: Mulish;
      font-style: normal;
      font-weight: 800;
      font-size: 14px;

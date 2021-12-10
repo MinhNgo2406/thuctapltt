@@ -12,6 +12,7 @@
     background: #FFFFFF;
     border-radius: 12px;
     position: sticky;
+    font-size: 16px;
 }
 
 
@@ -50,10 +51,14 @@ li:hover {
     background-color: #ADD8E6;
 }
 
+li {
+    color: #114A69;
+}
+
 .SbTittle {
     margin-top: 15%;
     line-height: 20px;
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;

@@ -81,10 +81,10 @@ export default function Qlcb() {
     );
     return (
         <div className="qlcb">
-            <div className="tieude3">
+            <div className="tieudebaocao">
                 Báo Cáo
             </div>
-            <img src={muiten} alt="" className="muiten" />
+            <img src={muiten} alt="" className="muitenbaocao" />
             <div className="tieude4">
                 Báo cáo theo ATM
             </div>

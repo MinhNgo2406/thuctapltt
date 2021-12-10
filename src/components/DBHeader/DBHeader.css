@@ -1,8 +1,12 @@
 /*Title*/
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+.titleN {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
 .titleN {
     /* 24 Extra Bold */
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -15,7 +19,6 @@
 }
 
 .titleD {
-    font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -61,6 +64,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkDate:hover {
@@ -87,6 +91,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkWeek:hover {
@@ -108,6 +113,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkMonth:hover {
@@ -129,6 +135,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkYear:hover {
@@ -159,7 +166,6 @@
     display: flex;
     align-items: center;
     margin-right: 16px;
-    font-family: Mulish;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

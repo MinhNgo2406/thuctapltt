@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Table } from 'antd';
 import './TableQTC.css';
 import 'antd/dist/antd.css';
 import { Link } from 'react-router-dom';
 import { Switch } from 'antd';
 
-export default function Tablegsm() {
 
+
+export default function Tablegsm() {
     const dataSource = [
         {
             key: '1',
@@ -26,6 +27,7 @@ export default function Tablegsm() {
                 <Link to="/xoa" className="link">
                     <p className="xoa"><u>Xóa</u></p>
                 </Link>
+
             </>
         },
         {
@@ -54,7 +56,7 @@ export default function Tablegsm() {
             key: '3',
             qtc: 'Adminitrator',
             trangthai: <>
-                <Switch/>
+                <Switch />
                 <div className="switch">
                     Không kích hoạt
                 </div>

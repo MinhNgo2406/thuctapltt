@@ -5,7 +5,7 @@
     margin-left: 160px;
     margin-top: -25px;
     /* 24 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -22,7 +22,7 @@
 }
 
 .QTCtext {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -49,7 +49,7 @@
 }
 
 .tttext {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -71,7 +71,7 @@
 }
 
 .ttname {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -92,7 +92,7 @@
 }
 
 .texttime {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -123,7 +123,7 @@
     position: static;
     width: 99px;
     height: 23px;
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -145,7 +145,7 @@
     height: 20px;
     margin-left: 10px;
     /* 16 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 16px;
@@ -161,10 +161,10 @@
     flex-grow: 0;
 }
 
-.muiten4 {
+.muitenqlnd {
     position: absolute;
-    margin-left: 145px;
-    margin-top: -15px;
+    margin-left: 140px;
+    margin-top: -18px;
 }
 
 .QTC2 {
@@ -199,7 +199,7 @@ thead[class*="ant-table-thead"] th {
     position: static;
     width: 110px;
     height: 23px;
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -217,4 +217,26 @@ thead[class*="ant-table-thead"] th {
 
 .quanlynguoidung {
     margin-top: -20px;
+}
+
+.tieudeqlnd {
+    position: static;
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+    /* 16 Extra Bold */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    /* Grey/4 */
+    color: #ACBCD1;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }

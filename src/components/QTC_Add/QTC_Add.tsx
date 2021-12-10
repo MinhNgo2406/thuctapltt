@@ -7,11 +7,11 @@ export default function QTC_Add() {
             <div className="tieudeQLHT">
                 Quản lý hệ thống
             </div>
-            <img src={muiten} alt="" className="muiten5" />
+            <img src={muiten} alt="" className="muitenqtc5" />
             <div className="tieudeQLND">
                 Quản lý người dùng
             </div>
-            <img src={muiten} alt="" className="muiten6" />
+            <img src={muiten} alt="" className="muitenqtc6" />
             <div className="tieudethem">
                 Thêm mới
             </div>

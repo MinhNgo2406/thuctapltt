@@ -112,7 +112,7 @@
 }
 
 .NameLogin {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 350;
     font-size: 40px;
@@ -122,14 +122,14 @@
 }
 
 .Contentlogin {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     text-align: center;
 }
 
 .tendangnhap {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -151,7 +151,7 @@
 }
 
 .matkhau {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -210,7 +210,7 @@
     height: 23px;
     left: calc(50% - 99px/2);
     top: calc(50% - 23px/2);
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -226,7 +226,7 @@
 }
 
 .quenmk {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     color: #1085C5;
     position: absolute;

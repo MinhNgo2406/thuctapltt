@@ -8,7 +8,7 @@ export default function AL() {
             <div className="tieude7">
                 Quản lý hệ thống
             </div>
-            <img src={muiten} alt="" className="muiten4" />
+            <img src={muiten} alt="" className="muitenqtc1" />
             <div className="tieude8">
                 Quyền truy cập
             </div>

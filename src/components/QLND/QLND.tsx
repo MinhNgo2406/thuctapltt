@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 export default function QLND() {
     return (
         <div className="quanlynguoidung">
-            <div className="tieude7">
+            <div className="tieudeqlnd">
                 Quản lý hệ thống
             </div>
-            <img src={muiten} alt="" className="muiten4" />
+            <img src={muiten} alt="" className="muitenqlnd" />
             <div className="tieude8">
                 Quản lý người dùng
             </div>

@@ -2,7 +2,7 @@
 
 .titleN {
     /* 24 Extra Bold */
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -15,7 +15,7 @@
 }
 
 .titleD {
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -61,6 +61,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkD3:hover {
@@ -81,6 +82,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkW3:hover {
@@ -102,6 +104,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkM3:hover {
@@ -123,6 +126,7 @@
     width: 15px;
     flex: 2;
     text-align: center;
+    color: #114A69;
 }
 
 .LinkY3:hover {
@@ -159,7 +163,7 @@
     display: flex;
     align-items: center;
     margin-right: 16px;
-    font-family: Mulish;
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;

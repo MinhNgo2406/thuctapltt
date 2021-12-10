@@ -5,7 +5,6 @@
     margin-left: 103px;
     margin-top: -25px;
     /* 24 Extra Bold */
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -33,7 +32,6 @@
 }
 
 .NDVQL {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -64,7 +62,6 @@
 }
 
 .LCBtext {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -90,8 +87,8 @@
     margin-top: 5px;
 }
 
-.tttext {
-    font-family: Mulish;
+.tttexttrangthai {
+    font-family: 'Baloo Bhaijaan 2', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -113,7 +110,6 @@
 }
 
 .ttname {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -134,7 +130,6 @@
 }
 
 .texttime {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
@@ -183,7 +178,6 @@
     position: static;
     width: 110px;
     height: 23px;
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -220,7 +214,6 @@
     position: static;
     width: 99px;
     height: 23px;
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -236,16 +229,15 @@
     margin-left: 60px;
 }
 
-.tieude1 {
+.tieudebaocao {
     position: static;
     width: 64px;
     height: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
     /* 16 Extra Bold */
-    font-family: Mulish;
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
     /* identical to box height */
     display: flex;
@@ -258,10 +250,10 @@
     flex-grow: 0;
 }
 
-.muiten {
+.muitenbaocao {
     position: absolute;
-    margin-left: 84px;
-    margin-top: -15px;
+    margin-left: 88px;
+    margin-top: -18px;
 }
 
 .time2 {

@@ -4,11 +4,11 @@ import muiten from '../../assets/dashboard/muiten1.png'
 export default function AL() {
     return (
         <div className="AL1">
-            <div className="tieude5">
+            <div className="tieudeal">
                 Quản lý hệ thống
             </div>
-            <img src={muiten} alt="" className="muiten3" />
-            <div className="tieude6">
+            <img src={muiten} alt="" className="muitenal" />
+            <div className="tieudeal1">
                 Audit log
             </div>
             <div className="DVQL2">
